@@ -1,0 +1,20 @@
+/*** Style pour doc3.html (Tables) ***/
+
+TABLE {
+  font: 100% sans-serif;
+  background-color: #efe;
+  border-collapse: collapse;
+  empty-cells: show;
+  border: 1px solid #7a7;
+  }
+
+THEAD{
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+}
+
+TD, TH{
+  border: 1px solid black;
+  padding: 2em;
+}
