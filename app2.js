@@ -22,6 +22,8 @@ const ready = function(){
     //creer un nouveau noeud de texte
     let firstName = document.createTextNode (people[i]);
     td.appendChild(firstName);
+    // ou tr.innerHTML = "<td> + people[i].firstname + </td>"
+    // ou tr.innerHTML = <td>${people[i].firstname}</td> ; s'appelle template string js
     tr.appendChild(td);
     tbody.appendChild(tr);
   }

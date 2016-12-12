@@ -1,20 +1,16 @@
 console.log("bonjour")
 
 const ready = function(){
-  const people = [
-    { firstname : "Bernardo", surname : "Blabla"},
-    { firstname : "Sharon", surname : "Blabla"},
-    { firstname : "Emerson", surname : "Blabla"},
-    { firstname : "Emma", surname : "Blabla"},
+  const people = ["Bernardo","Sharon","Emerson", "Emma""Blabla"},
 ]
 
   const thead = document.querySelector("thead");
   let lastname = document.createTextNode ("Nom");
-  let thlastname = appendChild("th");
-  let trlastname = appendChild("tr");
+  let th = appendChild("th");
+  let tr = appendChild("tr");
   thlastname.appendChild(lastname);
-  trlastname.appendChild(thlastname);
-  thead.appendChild(trlastname);
+  tr.appendChild(th);
+  thead.appendChild(tr);
 
   const tbody = document.querySelector("tbody");
   for (let i =0; i<people.length; i++){
